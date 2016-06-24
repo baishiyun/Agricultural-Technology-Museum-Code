@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0421BA5D1C13178A009489D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0421BA5C1C13178A009489D5 /* main.m */; };
+		0421BA601C13178A009489D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0421BA5F1C13178A009489D5 /* AppDelegate.m */; };
+		0421BA631C13178A009489D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0421BA621C13178A009489D5 /* ViewController.m */; };
+		0421BA661C13178A009489D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0421BA641C13178A009489D5 /* Main.storyboard */; };
+		0421BA681C13178A009489D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0421BA671C13178A009489D5 /* Images.xcassets */; };
+		0421BA6B1C13178A009489D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0421BA691C13178A009489D5 /* LaunchScreen.xib */; };
+		0421BA771C13178A009489D5 /* NetToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0421BA761C13178A009489D5 /* NetToolTests.m */; };
+		0421BA831C131976009489D5 /* NetTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0421BA821C131976009489D5 /* NetTool.m */; };
+		0421BA861C145A43009489D5 /* CusNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0421BA851C145A43009489D5 /* CusNavController.m */; };
+		0421BA961C1FEAAB009489D5 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0421BA941C1FEAAB009489D5 /* HomeTableViewCell.m */; };
+		0421BA9D1C200D7B009489D5 /* ClassifyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0421BA9B1C200D7B009489D5 /* ClassifyTableViewCell.m */; };
+		0421BA9E1C200D7B009489D5 /* ClassifyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0421BA9C1C200D7B009489D5 /* ClassifyTableViewCell.xib */; };
+		0421BAA31C201846009489D5 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0421BAA21C201846009489D5 /* HomeViewController.m */; };
+		0421BAB51C203306009489D5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0421BAB41C203306009489D5 /* DetailViewController.m */; };
+		0421BAB71C212363009489D5 /* q.png in Resources */ = {isa = PBXBuildFile; fileRef = 0421BAB61C212363009489D5 /* q.png */; };
+		04A32C1F1C21551900E0A765 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A32C1E1C21551900E0A765 /* HomeModel.m */; };
+		04A32C221C215E1900E0A765 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A32C211C215E1900E0A765 /* SettingViewController.m */; };
+		06C36C90CD036F93566A2C95 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2CA32716568378D5924BC58 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0421BA711C13178A009489D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0421BA4F1C13178A009489D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0421BA561C13178A009489D5;
+			remoteInfo = NetTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0421BA571C13178A009489D5 /* NetTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0421BA5B1C13178A009489D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0421BA5C1C13178A009489D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0421BA5E1C13178A009489D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0421BA5F1C13178A009489D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0421BA611C13178A009489D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = NetTool/ViewController.h; sourceTree = "<group>"; };
+		0421BA621C13178A009489D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = NetTool/ViewController.m; sourceTree = "<group>"; };
+		0421BA651C13178A009489D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0421BA671C13178A009489D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = NetTool/Images.xcassets; sourceTree = "<group>"; };
+		0421BA6A1C13178A009489D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0421BA701C13178A009489D5 /* NetToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0421BA751C13178A009489D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0421BA761C13178A009489D5 /* NetToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetToolTests.m; sourceTree = "<group>"; };
+		0421BA811C131976009489D5 /* NetTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetTool.h; sourceTree = "<group>"; };
+		0421BA821C131976009489D5 /* NetTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetTool.m; sourceTree = "<group>"; };
+		0421BA841C145A43009489D5 /* CusNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CusNavController.h; sourceTree = "<group>"; };
+		0421BA851C145A43009489D5 /* CusNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CusNavController.m; sourceTree = "<group>"; };
+		0421BA921C1470A0009489D5 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		0421BA931C1FEAAB009489D5 /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		0421BA941C1FEAAB009489D5 /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		0421BA9A1C200D7B009489D5 /* ClassifyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyTableViewCell.h; sourceTree = "<group>"; };
+		0421BA9B1C200D7B009489D5 /* ClassifyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyTableViewCell.m; sourceTree = "<group>"; };
+		0421BA9C1C200D7B009489D5 /* ClassifyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassifyTableViewCell.xib; sourceTree = "<group>"; };
+		0421BAA11C201846009489D5 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		0421BAA21C201846009489D5 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		0421BAB31C203306009489D5 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		0421BAB41C203306009489D5 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		0421BAB61C212363009489D5 /* q.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = q.png; sourceTree = "<group>"; };
+		04A32C1D1C21551900E0A765 /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		04A32C1E1C21551900E0A765 /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
+		04A32C201C215E1900E0A765 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		04A32C211C215E1900E0A765 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		E81CF4EFE50A78511B5A892A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F2CA32716568378D5924BC58 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4696556E27AA8055F64032B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0421BA541C13178A009489D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C36C90CD036F93566A2C95 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0421BA6D1C13178A009489D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0421BA4E1C13178A009489D5 = {
+			isa = PBXGroup;
+			children = (
+				04A32C1C1C2154FD00E0A765 /* Model */,
+				0421BAA01C2017ED009489D5 /* Other */,
+				0421BA9F1C2017DB009489D5 /* Controller */,
+				0421BA871C145BEF009489D5 /* View */,
+				0421BA801C13195A009489D5 /* Tool */,
+				0421BA591C13178A009489D5 /* Root */,
+				0421BA731C13178A009489D5 /* NetToolTests */,
+				0421BA581C13178A009489D5 /* Products */,
+				735628CE95E021678CBD73F9 /* Pods */,
+				C3645548F4282AFEFF96F344 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0421BA581C13178A009489D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0421BA571C13178A009489D5 /* NetTool.app */,
+				0421BA701C13178A009489D5 /* NetToolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0421BA591C13178A009489D5 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				0421BA841C145A43009489D5 /* CusNavController.h */,
+				0421BA851C145A43009489D5 /* CusNavController.m */,
+				0421BA5E1C13178A009489D5 /* AppDelegate.h */,
+				0421BA5F1C13178A009489D5 /* AppDelegate.m */,
+				0421BA5A1C13178A009489D5 /* Supporting Files */,
+			);
+			name = Root;
+			path = NetTool;
+			sourceTree = "<group>";
+		};
+		0421BA5A1C13178A009489D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0421BA5B1C13178A009489D5 /* Info.plist */,
+				0421BA5C1C13178A009489D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0421BA731C13178A009489D5 /* NetToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				0421BA761C13178A009489D5 /* NetToolTests.m */,
+				0421BA741C13178A009489D5 /* Supporting Files */,
+			);
+			path = NetToolTests;
+			sourceTree = "<group>";
+		};
+		0421BA741C13178A009489D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0421BA751C13178A009489D5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0421BA801C13195A009489D5 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				0421BA811C131976009489D5 /* NetTool.h */,
+				0421BA821C131976009489D5 /* NetTool.m */,
+				0421BA921C1470A0009489D5 /* Header.h */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		0421BA871C145BEF009489D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0421BA931C1FEAAB009489D5 /* HomeTableViewCell.h */,
+				0421BA941C1FEAAB009489D5 /* HomeTableViewCell.m */,
+				0421BA9A1C200D7B009489D5 /* ClassifyTableViewCell.h */,
+				0421BA9B1C200D7B009489D5 /* ClassifyTableViewCell.m */,
+				0421BA9C1C200D7B009489D5 /* ClassifyTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0421BA9F1C2017DB009489D5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0421BA611C13178A009489D5 /* ViewController.h */,
+				0421BA621C13178A009489D5 /* ViewController.m */,
+				0421BAA11C201846009489D5 /* HomeViewController.h */,
+				0421BAA21C201846009489D5 /* HomeViewController.m */,
+				0421BAB31C203306009489D5 /* DetailViewController.h */,
+				0421BAB41C203306009489D5 /* DetailViewController.m */,
+				04A32C201C215E1900E0A765 /* SettingViewController.h */,
+				04A32C211C215E1900E0A765 /* SettingViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0421BAA01C2017ED009489D5 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0421BAB61C212363009489D5 /* q.png */,
+				0421BA641C13178A009489D5 /* Main.storyboard */,
+				0421BA671C13178A009489D5 /* Images.xcassets */,
+				0421BA691C13178A009489D5 /* LaunchScreen.xib */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		04A32C1C1C2154FD00E0A765 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04A32C1D1C21551900E0A765 /* HomeModel.h */,
+				04A32C1E1C21551900E0A765 /* HomeModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		735628CE95E021678CBD73F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E81CF4EFE50A78511B5A892A /* Pods.debug.xcconfig */,
+				F4696556E27AA8055F64032B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3645548F4282AFEFF96F344 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2CA32716568378D5924BC58 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0421BA561C13178A009489D5 /* NetTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0421BA7A1C13178A009489D5 /* Build configuration list for PBXNativeTarget "NetTool" */;
+			buildPhases = (
+				E8B8E80E4051A90F33A10EAB /* Check Pods Manifest.lock */,
+				0421BA531C13178A009489D5 /* Sources */,
+				0421BA541C13178A009489D5 /* Frameworks */,
+				0421BA551C13178A009489D5 /* Resources */,
+				6413074CF541E583B6964033 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetTool;
+			productName = NetTool;
+			productReference = 0421BA571C13178A009489D5 /* NetTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0421BA6F1C13178A009489D5 /* NetToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0421BA7D1C13178A009489D5 /* Build configuration list for PBXNativeTarget "NetToolTests" */;
+			buildPhases = (
+				0421BA6C1C13178A009489D5 /* Sources */,
+				0421BA6D1C13178A009489D5 /* Frameworks */,
+				0421BA6E1C13178A009489D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0421BA721C13178A009489D5 /* PBXTargetDependency */,
+			);
+			name = NetToolTests;
+			productName = NetToolTests;
+			productReference = 0421BA701C13178A009489D5 /* NetToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0421BA4F1C13178A009489D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = BSY;
+				TargetAttributes = {
+					0421BA561C13178A009489D5 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = E5ET4J6JC7;
+					};
+					0421BA6F1C13178A009489D5 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 0421BA561C13178A009489D5;
+					};
+				};
+			};
+			buildConfigurationList = 0421BA521C13178A009489D5 /* Build configuration list for PBXProject "NetTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0421BA4E1C13178A009489D5;
+			productRefGroup = 0421BA581C13178A009489D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0421BA561C13178A009489D5 /* NetTool */,
+				0421BA6F1C13178A009489D5 /* NetToolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0421BA551C13178A009489D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0421BA661C13178A009489D5 /* Main.storyboard in Resources */,
+				0421BA6B1C13178A009489D5 /* LaunchScreen.xib in Resources */,
+				0421BA9E1C200D7B009489D5 /* ClassifyTableViewCell.xib in Resources */,
+				0421BAB71C212363009489D5 /* q.png in Resources */,
+				0421BA681C13178A009489D5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0421BA6E1C13178A009489D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6413074CF541E583B6964033 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8B8E80E4051A90F33A10EAB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0421BA531C13178A009489D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A32C1F1C21551900E0A765 /* HomeModel.m in Sources */,
+				0421BA631C13178A009489D5 /* ViewController.m in Sources */,
+				0421BA831C131976009489D5 /* NetTool.m in Sources */,
+				0421BA961C1FEAAB009489D5 /* HomeTableViewCell.m in Sources */,
+				0421BA861C145A43009489D5 /* CusNavController.m in Sources */,
+				0421BA601C13178A009489D5 /* AppDelegate.m in Sources */,
+				0421BA9D1C200D7B009489D5 /* ClassifyTableViewCell.m in Sources */,
+				0421BAB51C203306009489D5 /* DetailViewController.m in Sources */,
+				0421BA5D1C13178A009489D5 /* main.m in Sources */,
+				04A32C221C215E1900E0A765 /* SettingViewController.m in Sources */,
+				0421BAA31C201846009489D5 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0421BA6C1C13178A009489D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0421BA771C13178A009489D5 /* NetToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0421BA721C13178A009489D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0421BA561C13178A009489D5 /* NetTool */;
+			targetProxy = 0421BA711C13178A009489D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0421BA641C13178A009489D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0421BA651C13178A009489D5 /* Base */,
+			);
+			name = Main.storyboard;
+			path = NetTool;
+			sourceTree = "<group>";
+		};
+		0421BA691C13178A009489D5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0421BA6A1C13178A009489D5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = NetTool;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0421BA781C13178A009489D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0421BA791C13178A009489D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0421BA7B1C13178A009489D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E81CF4EFE50A78511B5A892A /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = NetTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0421BA7C1C13178A009489D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4696556E27AA8055F64032B /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = NetTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0421BA7E1C13178A009489D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NetToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetTool.app/NetTool";
+			};
+			name = Debug;
+		};
+		0421BA7F1C13178A009489D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NetToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetTool.app/NetTool";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0421BA521C13178A009489D5 /* Build configuration list for PBXProject "NetTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0421BA781C13178A009489D5 /* Debug */,
+				0421BA791C13178A009489D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0421BA7A1C13178A009489D5 /* Build configuration list for PBXNativeTarget "NetTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0421BA7B1C13178A009489D5 /* Debug */,
+				0421BA7C1C13178A009489D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0421BA7D1C13178A009489D5 /* Build configuration list for PBXNativeTarget "NetToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0421BA7E1C13178A009489D5 /* Debug */,
+				0421BA7F1C13178A009489D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0421BA4F1C13178A009489D5 /* Project object */;
+}

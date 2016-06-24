@@ -1,0 +1,4 @@
+pod 'AFNetworking', '~> 2.6.3'
+pod 'MBProgressHUD', '~> 0.9.1'
+pod 'HMSegmentedControl', '~> 1.5.2'
+pod 'MJRefresh', '~> 3.0.7'
