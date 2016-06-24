@@ -35,15 +35,7 @@
         self.mioashuT.font = [UIFont systemFontOfSize:12.0];
         [self.contentView addSubview:self.mioashuT];
         self.selectionStyle = UITableViewCellSelectionStyleNone;
-//        
-//        if (HightScreen>568) {
-//            self.mioashuT.numberOfLines = 2;
-//            
-//        }else{
-//            self.mioashuT.numberOfLines = 4;
-//            
-//        }
-//        self.mioashuT.lineBreakMode = NSLineBreakByWordWrapping;
+
 
     }
     return self;
